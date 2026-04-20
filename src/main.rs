@@ -16,7 +16,7 @@ enum Commands {
         #[arg(short, long)]
         exit: i64,
 
-        #[arg(short, long)]
+        #[arg(short = 'd', long)]
         cwd: String,
 
         #[arg(short, long)]
